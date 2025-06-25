@@ -1,0 +1,153 @@
+/* General setup */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0 auto;
+  min-width: 1000px;
+  max-width: 1400px;
+  font-family: 'Georgia', 'Times New Roman', Times, serif;
+  background: #fff;
+  color: #222;
+}
+
+/* Layout */
+
+section {
+  float: left;
+  width: 50%;
+  padding-right: 40px;
+}
+
+aside {
+  float: left;
+  width: 30%;
+  padding-left: 20px;
+}
+
+nav {
+  float: left;
+  width: 20%;
+  padding-left: 20px;
+}
+
+footer {
+  clear: both;
+  margin-top: 40px;
+  text-align: center;
+  font-size: 1.1em;
+}
+
+header, section, aside, nav, footer {
+  padding: 20px;
+}
+
+/* header and footer */
+
+header, footer {
+  border-top: 5px solid #a66;
+  border-bottom: 5px solid #a66;
+  background: #fff;
+  margin-bottom: 30px;
+}
+
+header h1 {
+  text-align: center;
+  font-size: 3em;
+  font-family: 'Georgia', 'Times New Roman', Times, serif;
+  font-weight: bold;
+  margin: 0;
+  letter-spacing: 2px;
+}
+
+/* Headings */
+h2 {
+  font-family: 'Georgia', 'Times New Roman', Times, serif;
+  font-size: 1.6em;
+  font-weight: bold;
+  margin-top: 0;
+  margin-bottom: 0.5em;
+  letter-spacing: 1px;
+}
+
+section h2, aside h2 {
+  font-size: 1.5em;
+  font-weight: bold;
+  margin-bottom: 0.5em;
+}
+
+/* Navigation */
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav li {
+  margin-bottom: 20px;
+}
+
+nav a {
+  display: block;
+  text-align: center;
+  padding: 18px 0;
+  border: 2px solid #a66;
+  color: #a66;
+  text-decoration: none;
+  font-size: 1.2em;
+  font-family: 'Georgia', 'Times New Roman', Times, serif;
+  background: #fff;
+  transition: background 0.2s, color 0.2s;
+}
+
+nav a:hover {
+  background: #a66;
+  color: #fff;
+}
+
+/* Links */
+a {
+  color: #a66;
+  text-decoration: underline;
+}
+
+a:hover {
+  color: #222;
+  text-decoration: none;
+}
+
+/* Lists */
+ul, ol {
+  margin-left: 1.5em;
+  margin-bottom: 1em;
+}
+
+ul li, ol li {
+  margin-bottom: 0.3em;
+}
+
+/* Misc */
+section p, aside p {
+  line-height: 1.6;
+  margin-bottom: 1em;
+}
+
+aside ul {
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+}
+
+aside a {
+  color: #a66;
+  text-decoration: underline;
+}
+
+aside a:hover {
+  color: #222;
+}
+img {
+  height: 12px;
+}
+/* WRITE YOUR CODE BELOW HERE */
